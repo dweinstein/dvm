@@ -65,11 +65,11 @@ module VagrantPlugins
 end
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "boot2docker-0.5.4-1"
+  config.vm.box = "boot2docker-0.7.1"
   config.vm.network "private_network", :ip => ip
 
   config.vm.provider :virtualbox do |v, override|
-    override.vm.box_url = "https://github.com/mitchellh/boot2docker-vagrant-box/releases/download/v0.5.4-1/boot2docker_virtualbox.box"
+    override.vm.box_url = "https://github.com/dweinstein/boot2docker-vagrant-box/releases/download/v0.7.1/boot2docker_virtualbox.box"
     v.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
     v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
     v.customize ["modifyvm", :id, "--memory", Integer(memory)]
