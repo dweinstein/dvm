@@ -1,3 +1,9 @@
+## 0.9.0-dw / 2014-8-24
+
+### New features
+
+* Upgrade to [boot2docker 1.2.0](https://github.com/boot2docker/boot2docker/releases/tag/v1.1.0). ([@dweinstein][])
+
 ## 0.8.0 / 2014-07-03
 
 ### New features
