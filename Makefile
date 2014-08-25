@@ -1,6 +1,6 @@
 NAME=dvm
-VERSION=0.8.0
-AUTHOR=fnichol
+VERSION=0.9.1-binfmt
+AUTHOR=dweinstein
 URL=https://github.com/$(AUTHOR)/$(NAME)
 
 DIRS=etc lib bin sbin share
