@@ -122,9 +122,9 @@ docker_ip() {
 setup_env() {
   load_conf
   if [[ $SHELL =~ .*fish$ ]] ; then
-    echo "set -x DOCKER_HOST tcp://$(docker_ip):${DOCKER_PORT:-2375}"
+    echo "set -x DOCKER_HOST tcp://$(docker_ip):${DOCKER_PORT:-2376}"
   else
-    echo "export DOCKER_HOST=tcp://$(docker_ip):${DOCKER_PORT:-2375}"
+    echo "export DOCKER_HOST=tcp://$(docker_ip):${DOCKER_PORT:-2376}"
   fi
 }
 
