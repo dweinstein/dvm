@@ -1,5 +1,5 @@
 #!//usr/bin/env bash
-DVM_VERSION="0.9.1.dev"
+DVM_VERSION="1.3.0-dw"
 set -e
 [ -n "$DEBUG" ] && set -x
 
